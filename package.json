@@ -1,0 +1,23 @@
+{
+  "name": "testing-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch":"jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NITINSHARMA108/Testing-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NITINSHARMA108/Testing-basics/issues"
+  },
+  "homepage": "https://github.com/NITINSHARMA108/Testing-basics#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
