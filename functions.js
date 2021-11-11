@@ -1,14 +1,20 @@
 // function to capitalize the given string
 function capitalize(string){
+    try{
     let letter=string[0].toUpperCase();
     return letter+string.slice(1,string.length);
+    }
+    catch(err)
+    {
+        return undefined;
+    }
 }
 
 // basic calculator function
 function calculator(a,b,operator){
     switch(operator){
-        case '+':return a+b;
-        case '-':return a-b;
+        case '+':return Number((a+b));
+        case '-':return Number((a-b));
         case '*':return Number((a.toFixed(2)*b.toFixed(2)).toFixed(2));
         case '/':if(b==0){
                 return 'infinity';

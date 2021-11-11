@@ -1,9 +1,11 @@
 const {capitalize, reverseString,arrayAnalysis}=require('../functions.js');
 
-it('it runs',()=>{
+it('capitlize string',()=>{
     expect(capitalize('ravi')).toBe('Ravi');
 });
-
+it('null strin capitalize',()=>{
+    expect(capitalize('')).toBeUndefined();
+})
 
 
 
