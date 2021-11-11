@@ -15,12 +15,12 @@ function calculator(a,b,operator){
     switch(operator){
         case '+':return Number((a+b));
         case '-':return Number((a-b));
-        case '*':return Number((a.toFixed(2)*b.toFixed(2)).toFixed(2));
+        case '*':return Number(a*b);
         case '/':if(b==0){
                 return 'infinity';
                 }
                 else{
-                    return Number((a.toFixed(2)/b.toFixed(2)).toFixed(2));
+                    return Number((a/b));
                 }
     }
 }
